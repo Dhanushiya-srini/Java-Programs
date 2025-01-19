@@ -1,6 +1,12 @@
-Topics
+JAVA PROGRAMS
+   Topics
 -
 - IO statements
 - Arithmetic Operations
 - Conditional Statements
-- Looping 
+- Looping
+- Single Inheritance
+- Multiple Inheritance
+- Hierarchial Inheritance
+- Interface
+- Switching
