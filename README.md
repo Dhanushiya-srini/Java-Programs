@@ -12,3 +12,4 @@ JAVA PROGRAMS
 - Interface
 - Switching
 - Exceptions
+- Sorting
