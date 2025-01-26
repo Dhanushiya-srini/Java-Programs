@@ -13,3 +13,5 @@ JAVA PROGRAMS
 - Switching
 - Exceptions
 - Sorting
+- Patterns
+- Constructors
