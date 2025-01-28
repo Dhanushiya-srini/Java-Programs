@@ -16,3 +16,4 @@ JAVA PROGRAMS
 - Patterns
 - Constructors
 - String
+- Methods
