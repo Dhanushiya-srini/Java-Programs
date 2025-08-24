@@ -5,7 +5,7 @@ public class J_009_Basic_PrimeNumberCheck {
         Scanner scan = new Scanner(System.in);
         int num =scan.nextInt();
         int count=0;
-        for (int i = 2; i < Math.sqrt(num); i++) {
+        for (int i = 2; i <= Math.sqrt(num); i++) {
             if(num%i==0)
                 count++;
         }
