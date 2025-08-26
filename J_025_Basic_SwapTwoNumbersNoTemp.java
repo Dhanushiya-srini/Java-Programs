@@ -5,7 +5,6 @@ public class J_025_Basic_SwapTwoNumbersNoTemp {
         Scanner scan = new Scanner(System.in);
         int num1 = scan.nextInt();
         int num2 = scan.nextInt();
-        int swap;
         System.out.println("Before Swapping Number1 and Number2 are: "+num1+" and "+num2);
         num1=num1+num2;
         num2=num1-num2;
