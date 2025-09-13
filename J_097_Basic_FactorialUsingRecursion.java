@@ -9,7 +9,7 @@ public class J_097_Basic_FactorialUsingRecursion {
     }
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int num= scan.nextInt();
+        int num = scan.nextInt();
         int fact = Factorial(num);
         System.out.println("The Factorial of the Number "+num+" is "+fact);
         scan.close();
