@@ -11,7 +11,8 @@ public class J_092_Basic_CompoundInterest {
         double q =(1+(r/n));
         double pow =Math.pow(q, mul);
         double CI =p*pow-p;
-        System.out.println("The compound Interest is :"+CI);
+        int Com =(int)CI;
+        System.out.println("The compound Interest is :"+Com);
         scan.close();
     }
 }
