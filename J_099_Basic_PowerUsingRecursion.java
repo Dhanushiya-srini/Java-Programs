@@ -12,5 +12,6 @@ public class J_099_Basic_PowerUsingRecursion{
     int num = scan.nextInt();
     int exp = scan.nextInt();
     System.out.println(power(num,exp));
+    scan.close();
 }
 }
