@@ -13,7 +13,7 @@ public class J_010_Basic_SortArrayAscending {
             for(int j=0;j<size-1;j++){
                 if(arr[j+1]<arr[j]){
                     swap=arr[j];
-                    arr[j]=arr[j+1];
+                    arr[j] =arr[j+1];
                     arr[j+1]=swap;
                 }
             }
