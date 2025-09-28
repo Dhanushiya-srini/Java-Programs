@@ -7,7 +7,7 @@ public class J_022_Basic_PalindromeNumberCheck {
         int rev=0,num1=num;
         while(num>0){
             int r=num%10;
-            rev=(rev*10)+r;
+            rev =(rev*10)+r;
             num/=10;
         }
         if(num1==rev)
