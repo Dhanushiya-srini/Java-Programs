@@ -7,7 +7,7 @@ public class J_005_Basic_FibonacciSeries {
         int num=scan.nextInt();
         for(int i=0;i<num;i++){
             System.out.println(first);
-            swap=first;
+            swap= first;
             first=second;
             second=swap+second;
             
