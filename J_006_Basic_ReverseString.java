@@ -6,7 +6,7 @@ public class J_006_Basic_ReverseString {
         int size=word.length();
         int size2=size-1;
         char [] arr1=word.toCharArray();
-        char [] arr2=new char[size];
+        char [] arr2 =new char[size];
         for(int i=size2;i>=0;i--){
             arr2[size2-i]=arr1[i];
         }
