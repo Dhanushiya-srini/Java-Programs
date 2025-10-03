@@ -5,7 +5,7 @@ public class J_048_Basic_ReverseArray {
         Scanner scan = new Scanner(System.in);
         int size = scan.nextInt();
         int [] arr = new int[size];
-        for(int i=0;i<size;i++){
+        for(int i= 0;i<size;i++){
             arr[i]=scan.nextInt();
         }
         System.out.println("Before Reversing: "+Arrays.toString(arr));
