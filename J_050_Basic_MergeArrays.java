@@ -15,7 +15,7 @@ public class J_050_Basic_MergeArrays {
             arr2[i]=scan.nextInt();
         }
         int [] arr3 =new int [size+size2];
-        for(int i=0;i<size;i++){
+        for(int i= 0;i<size;i++){
             arr3[i]=arr[i];
         }
         for(int i=0;i<size2;i++){
