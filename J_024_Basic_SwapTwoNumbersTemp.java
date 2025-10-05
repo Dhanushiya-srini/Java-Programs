@@ -8,7 +8,7 @@ public class J_024_Basic_SwapTwoNumbersTemp {
         int num2 = scan.nextInt();
         int swap;
         System.out.println("Before Swapping Number1 and Number2 are: "+num1+" and "+num2);
-        swap=num1;
+        swap =num1;
         num1=num2;
         num2=swap;
         System.out.println("After Swapping Number1 and Number2 are: "+num1+" and "+num2);
