@@ -7,7 +7,7 @@ public class J_074_Basic_ConvertToTitleCase {
         char [] arr=sen.toCharArray();
         StringBuilder sb = new StringBuilder();
         sb.append(Character.toUpperCase(arr[0]));
-        for(int i=1;i<arr.length;i++){
+        for(int i= 1;i<arr.length;i++){
             if(arr[i-1]==' ')
                 sb.append(Character.toUpperCase(arr[i]));
             else
