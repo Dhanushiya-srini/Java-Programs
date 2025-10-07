@@ -6,7 +6,7 @@ public class J_015_Basic_DecimalToBinary {
         int num=scan.nextInt();
         int count=0,num1=num;
         while(num1>1){
-            num1=num1/2;
+            num1 =num1/2;
             count++;
         }
         count++;
