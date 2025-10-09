@@ -9,7 +9,7 @@ public class J_009_Basic_PrimeNumberCheck {
             if(num%i==0)
                 count++;
         }
-        if(count==0)
+        if(count ==0)
             System.out.println("The given Number is a Prime number");
         else
             System.out.println("The given Number is not a Prime number");
