@@ -9,7 +9,7 @@ public class J_052_Basic_FrequencyOfElements {
             arr[i]=scan.nextInt();
         } 
         int k=0;
-        for(int i=0;i<size;i++){
+        for(int i =0;i<size;i++){
             boolean bool=true;
             for(int j=0;j<k;j++){
                 if(org[j]==arr[i]){
